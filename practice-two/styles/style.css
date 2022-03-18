@@ -694,5 +694,26 @@ footer{
     .home .content .img-icon{
         width: 60px;
     }
+
+    /*Team*/
+    .team .box-container .box{
+        margin: 5px 0;
+    }
+
+    .team{
+        min-height: 48vh;
+    }
+
+    .person img{
+        width: 55px;
+    }
+
+    .person h3{
+        font-size: 12px;
+    }
+
+    .person p{
+        font-size: 12px;
+    }
 }
 
