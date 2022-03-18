@@ -941,3 +941,16 @@ footer{
     }
 }
 
+/*Mobile version*/
+    @media (max-width: 375px){
+    header label{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header .navbar{
+        position: absolute;
+        visibility: hidden;
+    }
+}
+
