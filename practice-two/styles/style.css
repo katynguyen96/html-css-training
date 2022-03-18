@@ -777,5 +777,26 @@ footer{
         margin: 0;
         padding: 0;
     }
+
+    /*Create an account*/
+    .content .heading{
+        font-size: 24px;
+    }
+
+    .content .title{
+        font-size: 13px;
+    }
+
+    .content .input-box input{
+        font-size: 12px;
+    }
+
+    .content a{
+        font-size: 10px;
+    }
+
+    .account .sign_up-btn{
+        font-size: 12px;
+    }
 }
 
