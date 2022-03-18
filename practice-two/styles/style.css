@@ -798,5 +798,94 @@ footer{
     .account .sign_up-btn{
         font-size: 12px;
     }
+
+     /*Contact*/
+    .contact{
+        min-height: 30vh;
+    }
+
+    .contact .heading{
+        font-size: 28px;
+        margin-top: 50px;
+    }
+
+    .contact .box-container .box:nth-child(1){
+        order: 2;
+        margin-top: 25px;
+    }
+
+    .contact .box-container .box:nth-child(2){
+        order: 1;
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    .contact .box-container .box:last-child{
+        order: 3;
+        margin-top: 25px;
+    }
+
+    .contact .box-container{
+        flex-wrap: nowrap;
+    }
+
+    .contact .box-container .input-box input{
+        padding-right: 0;
+        width: 120px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 11px;
+    }
+
+    .contact .box-container .box label{
+        font-size: 11px;
+    }
+
+    .contact .box-container .box textarea{
+        height: 100px;
+        margin-top: 10px;
+    }
+
+    .contact .box-container .box .submit-btn{
+        margin-left: 100px;
+        padding: 8px 35px;
+        font-size: 10px;
+    }
+
+    .contact .box-container .box{
+        margin: 0;
+    }
+
+    .contact .box-container .get-in-touch{
+        font-size: 13px;
+    }
+
+    .contact .box-container .detail{
+        font-size: 11px;
+    }
+
+    .contact .box-container .box .credits{
+        font-size: 13px;
+    }
+
+    .contact .box-container .box .contents{
+        font-size: 11px;
+    }
+
+    .contact .box-container .box .follow{
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+    .contact .box-container .box .icon img{
+        width: 20px;
+    }
+
+    .contact .box-container .box .icon{
+        width: 140px;
+    }
+
 }
 
