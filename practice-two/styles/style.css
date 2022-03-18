@@ -715,5 +715,47 @@ footer{
     .person p{
         font-size: 12px;
     }
+
+    /*Plan*/
+    .plan .heading{
+        font-size: 30px;
+        padding-top: 60px;
+    }
+
+    .plan .box-container{
+        flex-wrap: nowrap;
+    }
+
+    .plan{
+        padding: 0 20px;
+        min-height: 530px;
+    }
+
+    .plan .purchase-btn{
+        font-size: 11px;
+        padding: 10px 30px;
+    }
+
+    .plan .box-container .box .title{
+        font-size: 14px;
+    }
+
+    .plan .box-container .box .price{
+        font-size: 40px;
+    }
+
+    .plan .box-container .box .year{
+        font-size: 14px;
+    }
+
+    .plan .box-container .box li{
+        font-size: 11px;
+        padding: 0;
+    }
+
+    .plan .heading{
+        margin-top: 40px;
+    }
+
 }
 
