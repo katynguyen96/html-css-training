@@ -1022,5 +1022,20 @@ footer{
         margin-right: 20px;
         width: 50px;
     }
+
+     /*Team*/
+    .team .heading{
+        font-size: 35px;
+    }
+
+    .team .box-container{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .team .box-container .box{
+        padding-bottom: 0px;
+        height: 130px
+    }
 }
 
