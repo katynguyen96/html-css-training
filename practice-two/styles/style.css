@@ -572,17 +572,17 @@ footer{
     padding-bottom: 40px;
 }
 
-.footer .box-container .box:nth-child(1){
+.footer .box-container:nth-child(1) .box:nth-child(1){
     width: 120px;
 }
 
-.footer .box-container .box .title{
+.footer .box-container:nth-child(1) .box .title{
     font-size: 18px;
     margin-bottom: 16px;
     text-transform: uppercase;
 }
 
-.footer .box-container .box .content{
+.footer .box-container:nth-child(1) .box .content{
     font-size: 14px;
     text-transform: none;
     font-style: normal;
@@ -590,16 +590,32 @@ footer{
     text-decoration: none;
 }
 
-.footer .box-container .box:nth-child(2){
+.footer .box-container:nth-child(1) .box-detail{
+    display: flex;
+}
+
+.footer .box-container:nth-child(1) .box-detail .box:nth-child(2) .address{
+    margin-left: 40px;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+.footer .box-detail .box:nth-child(2){
+    width: 230px;
+}
+
+.footer .box-container:nth-child(2) .box:nth-child(2){
     margin-top: 35px;
     margin-right: 40px;
 }
 
-.footer .box-container .box:last-child{
+.footer .box-container:nth-child(1) .box:nth-child(3){
     width: 360px;
 }
 
-.footer .box-container .box:nth-child(3) .icon{
+.footer .box-container:nth-child(1) .box:nth-child(2) .icon{
     margin-right: 25px;
     cursor: pointer;
 }
@@ -893,24 +909,41 @@ footer{
         min-height: 23vh;
     }
 
+    .footer .box-container:nth-child(1) .box-detail{
+        justify-content: center;
+    }
+
     .footer .box-container:nth-child(1){
         flex-wrap: nowrap;
         padding-bottom: 30px;
     }
 
-    .footer .box-container .box .title{
+    .footer .box-container:nth-child(1) .box .title{
         font-size: 14px;
     }
 
-    .footer .box-container  .box .content{
+    .footer .box-container:nth-child(1) .box:nth-child(1){
+        width: 126px;
+    }
+
+    .footer .box-detail .box:nth-child(2){
+        width: 170px;
+        margin-top: 12px;
+    }
+
+    .footer .box-container:nth-child(1)  .box .content{
         font-size: 11px;
     }
 
-    .footer .box-container .box:nth-child(3) .icon{
+    .footer .box-container .box:nth-child(2) .icon{
         width: 20px;
     }
 
-    .footer .box-container .box:last-child{
+    .footer .box-container:nth-child(1) .box-detail .box:nth-child(2) .address{
+        margin-left: 0px;
+    }
+
+    .footer .box-container:nth-child(1) .box:nth-child(3){
         width: 220px;
     }
     .footer .box-container .box:nth-child(2){
@@ -943,6 +976,8 @@ footer{
 
 /*Mobile version*/
     @media (max-width: 375px){
+
+    /*header*/
     header label{
         visibility: visible;
         opacity: 1;
