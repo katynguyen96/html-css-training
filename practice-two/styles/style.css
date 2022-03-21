@@ -294,16 +294,13 @@ header .take-tour-btn{
 }
 
 .place .name{
-    /*border: 5px solid #bababa;*/
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     text-transform: uppercase;
     font-size: 20px;
-    /*margin-left: 270px;*/
     margin-bottom: 10px;
-    /*width: 600px;*/
 }
 
 .place .name p{
@@ -315,6 +312,23 @@ header .take-tour-btn{
     margin-right: 60px;
     margin-top: 10px;
     padding: 20px;
+}
+
+.place .drop-menu{
+    display: flex;
+    justify-content: center;
+    border:solid 1px #4B4B4B;
+    border-radius: 48px;
+    padding: 5px 20px;
+    width: 150px;
+    margin-left: 49px;
+    visibility: hidden;
+}
+
+.place .drop-menu i{
+    width: 10px;
+    margin-left: 5px;
+    margin-top: 1px;
 }
 
 .place .box-container .box{
@@ -778,6 +792,11 @@ footer{
         margin-bottom: 0;
         min-height: 53vh;
     }
+
+    .place .heading{
+        /*margin-bottom: 0px;*/
+    }
+
     .place .name p{
         margin: auto 30px;
         font-size: 14px;
@@ -1053,6 +1072,38 @@ footer{
 
     .plan .purchase-btn{
         padding: 10px 45px;
+    }
+
+    /*place*/
+    .place{
+        padding: 0 60px;
+    }
+
+    .place .heading{
+        font-size: 22px;
+    }
+
+    .place .box-container .box img{
+        width: 120px;
+    }
+
+    .place .box-container{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .place .box-container .box{
+        margin-bottom: 35px;
+    }
+
+    .place .drop-menu{
+        visibility: visible;
+        opacity: 1;
+        margin-bottom: 25px;
+    }
+
+    .place .name{
+        display: none;
     }
 }
 
