@@ -1037,5 +1037,22 @@ footer{
         padding-bottom: 0px;
         height: 130px
     }
+
+     /*plan*/
+    .plan .box-container{
+        flex-wrap: wrap;
+    }
+
+    .plan{
+        padding: 0 50px;
+    }
+
+    .plan .heading{
+        font-size: 22px;
+    }
+
+    .plan .purchase-btn{
+        padding: 10px 45px;
+    }
 }
 
