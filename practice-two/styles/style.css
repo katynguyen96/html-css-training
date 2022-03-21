@@ -987,5 +987,40 @@ footer{
         position: absolute;
         visibility: hidden;
     }
+
+    .home {
+        min-height: 65vh;
+    }
+
+    .home .find .find-now{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .find .find-now-btn{
+        width: 65%;
+        margin-top: 20px;
+        padding: 7px 10px;
+    }
+
+    .find input[type="email"]{
+        width: 240px;
+        margin-left: 10px;
+    }
+
+    .home .content h1{
+        font-size: 22px;
+        margin: 50px auto auto auto;
+    }
+
+    .home .content .icon{
+        justify-content: center;
+    }
+
+    .home .content .img-icon{
+        margin-right: 20px;
+        width: 50px;
+    }
 }
 
