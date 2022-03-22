@@ -453,6 +453,16 @@ header .take-tour-btn{
     margin-left: 15px;
 }
 
+.contact .box-container .info .phone span{
+    visibility: hidden;
+}
+
+.contact .box-container .info .phone{
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+}
+
 .contact .box-container .detail{
     font-size: 14px;
     margin-left: 10px;
@@ -879,7 +889,7 @@ footer{
     }
 
     .contact .box-container .box textarea{
-        height: 100px;
+        height: 80px;
         margin-top: 10px;
     }
 
@@ -1104,6 +1114,34 @@ footer{
 
     .place .name{
         display: none;
+    }
+
+    .contact .box-container{
+        flex-wrap: wrap;
+    }
+
+    .contact .box-container .box:nth-child(1){
+        width: 300px;
+    }
+
+    .contact .box-container .box:last-child{
+        width: 280px;
+    }
+
+    .contact .box-container .box .icon{
+        flex-wrap: nowrap;
+    }
+
+    .contact .box-container .info .phone{
+        width: 170px;
+    }
+
+    .contact .box-container .info .phone div:nth-child(2){
+        margin-left:-7px;
+    }
+
+    .contact .box-container .info .phone span{
+        visibility: visible;
     }
 }
 
