@@ -36,6 +36,7 @@ header label{
 }
 
 header .logo{
+    letter-spacing: 3px;
     text-decoration: none;
     font-size: 20px;
     color: #EBCB80;
@@ -281,7 +282,6 @@ header .take-tour-btn{
 
 /*Place*/
 .place{
-    /*width: 100%;*/
     min-height: 127vh;
     padding: 0 100px;
 }
@@ -612,6 +612,7 @@ footer{
     font-style: normal;
     color: #FFF;
     text-decoration: none;
+    opacity: 50%;
 }
 
 .footer .box-container:nth-child(1) .box-detail{
@@ -642,6 +643,7 @@ footer{
 .footer .box-container:nth-child(1) .box:nth-child(2) .icon{
     margin-right: 25px;
     cursor: pointer;
+    opacity: 50%;
 }
 
 .footer .box-container:nth-child(2){
@@ -655,6 +657,7 @@ footer{
     margin-top: 39px;
     font-size: 14px;
     width: 200px;
+    opacity: 50%;
 }
 
 .footer .box-container:nth-child(2) .box:nth-child(2){
@@ -689,8 +692,11 @@ footer{
     cursor: pointer;
 }
 
+
+
 .footer .box-container:nth-child(2) .to-the-top{
     visibility: hidden;
+    opacity: 50%;
 }
 
 
@@ -1015,6 +1021,14 @@ footer{
     @media (max-width: 375px){
 
     /*header*/
+    header{
+        padding: 15px 30px;
+    }
+
+    header .logo{
+        font-size: 200%;
+    }
+
     header label{
         visibility: visible;
         opacity: 1;
