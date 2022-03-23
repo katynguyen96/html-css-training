@@ -1199,7 +1199,13 @@ footer{
     }
 
     .contact .box-container .box:last-child{
-        width: 280px;
+        width: 260px;
+        margin-top: 5px;
+    }
+
+    .contact .box-container .box:last-child .contents{
+        text-transform: none;
+        margin-top: 20px;
     }
 
     .contact .box-container .box .icon{
