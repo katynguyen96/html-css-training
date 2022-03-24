@@ -4,7 +4,6 @@
 
 /*Header*/
 header{
-    /*top:0; left: 0;*/
     width: 100%;
     background:#4B4B4B;
     padding: 30px 85px;
@@ -735,8 +734,8 @@ footer{
     .home .content h1{
         font-size: 32px;
         text-align: center;
-        margin: auto auto auto 135px;
-        width: 65%;
+        margin: auto;
+        width: 75%;
     }
 
     .home .content p{
@@ -1062,14 +1061,14 @@ footer{
     }
 
     .find .find-now-btn{
-        width: 65%;
+        width: 63%;
         margin-top: 20px;
         padding: 7px 10px;
     }
 
     .find input[type="email"]{
         width: 240px;
-        margin-left: 10px;
+        margin-right: 0px;
     }
 
     .home .content h1{
@@ -1078,12 +1077,13 @@ footer{
     }
 
     .home .content .icon{
-        justify-content: center;
+        justify-content: space-around;
+        width: 230px;
+        margin: 40px auto 70px auto;
     }
 
     .home .content .img-icon{
-        margin-right: 20px;
-        width: 50px;
+        /*width: 50px;*/
     }
 
      /*Team*/
@@ -1194,8 +1194,34 @@ footer{
         font-size: 22px;
     }
 
+    .contact .box-container .detail{
+        font-size: 12px;
+        width: 265px;
+        /*margin-left: 12px;*/
+    }
+
     .contact .box-container .box:nth-child(1){
         width: 300px;
+    }
+
+    .contact .info{
+        margin: 10px 20px;
+    }
+
+    .contact .box-container .box .info:last-child{
+        margin-bottom: 20px;
+    }
+
+    .contact .box-container .info .image-email{
+        margin-top: 4px;
+        margin-left: 0;
+    }
+
+    .contact .box-container .info .image{
+        margin-top: 11px;
+    }
+    .contact .box-container .info address{
+        margin-left: 20px;
     }
 
     .contact .box-container .box:last-child{
@@ -1206,14 +1232,31 @@ footer{
     .contact .box-container .box:last-child .contents{
         text-transform: none;
         margin-top: 20px;
+        width: 290px;
+    }
+
+    .contact .box-container .box .contents{
+        font-size: 12.5px;
     }
 
     .contact .box-container .box .icon{
         flex-wrap: nowrap;
+        padding-left: 0px;
+    }
+
+    .contact .box-container .box .icon img{
+        width: 15px;
+        height: 15px;
+        margin-left: 9px;
+    }
+
+    .contact .box-container .box .icon img{
+        font-size: 12px;
     }
 
     .contact .box-container .info .phone{
-        width: 170px;
+        width: 190px;
+        margin-left: 4px;
     }
 
     .contact .box-container .info .phone div:nth-child(2){
