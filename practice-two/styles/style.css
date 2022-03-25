@@ -1,7 +1,6 @@
-.wrapper-container{
-    width: 1440px;
+.warpper-container{
+    max-width: 1440px;
 }
-
 /*Header*/
 header{
     width: 100%;
