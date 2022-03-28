@@ -1,10 +1,18 @@
-.warpper-container{
-    max-width: 1440px;
+@font-face{
+    font-family: MyFont
+    src: url(../fonts/Roboto/Roboto-Black.ttf);
+}
+
+.warapper-container{
+     max-width: 1320px;
+     margin: auto;
 }
 /*Header*/
-header{
-    width: 100%;
+.header-content{
     background:#4B4B4B;
+}
+
+.navbar-content{
     padding: 30px 85px;
     display: flex;
     align-items: center;justify-content: space-between;
@@ -30,6 +38,7 @@ header label{
     justify-content: center;
     background-image: url(../images/background.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -111,10 +120,6 @@ header .take-tour-btn{
 }
 
 /*Team*/
-.team{
-    min-height: 90vh;
-    /*width: 100%;*/
-}
 .team .heading{
     font-size: 44px;
     text-align: center;
@@ -288,7 +293,7 @@ header .take-tour-btn{
 
 /*Place*/
 .place{
-    min-height: 127vh;
+    /*min-height: 127vh;*/
     padding: 0 100px;
 }
 
@@ -722,7 +727,7 @@ footer{
         font-size: 150%;
     }
 
-    header{
+    .navbar-content{
         padding: 20px 30px;
     }
 
@@ -1031,7 +1036,7 @@ footer{
     @media (max-width: 375px){
 
     /*header*/
-    header{
+    .navbar-content{
         padding: 15px 30px;
     }
 

@@ -9,21 +9,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 </head>
 <body>
-    <div class="warpper-container">
-        <!-- header  -->
-        <header>
-            <a href="javascript:void(0)" class="logo">hofmann</a>
+    <!-- <div class="warpper-container"> -->
+    <!-- header  -->
+    <header>
+        <div class="header-content">
+            <div class="warapper-container">
+                <div class="navbar-content">
+                    <a href="javascript:void(0)" class="logo">hofmann</a>
 
-            <input type="checkbox" id="menu-bar">
-            <label for="menu-bar" class="fas fa-bars"></label>
+                    <input type="checkbox" id="menu-bar">
+                    <label for="menu-bar" class="fas fa-bars"></label>
 
-            <nav class="navbar">
-                <a class="item" href="javascript:void(0)">mission</a>
-                <a class="item" href="javascript:void(0)">service</a>
-                <a class="item" href="javascript:void(0)">about</a>
-                <a class="item take-tour-btn" href="javascript:void(0)">take a tour</a>
-            </nav>
-        </header>
+                    <nav class="navbar">
+                        <a class="item" href="javascript:void(0)">mission</a>
+                        <a class="item" href="javascript:void(0)">service</a>
+                        <a class="item" href="javascript:void(0)">about</a>
+                        <a class="item take-tour-btn" href="javascript:void(0)">take a tour</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
 
         <section class="home">
             <div class="content">
@@ -44,7 +50,8 @@
         </section>
 
         <!-- Team -->
-        <section class="team">
+        <div class="warapper-container">
+            <section class="team">
             <h2 class="heading">Our Team</h2>
             <div class="box-container">
                 <div class="box">
@@ -121,11 +128,14 @@
                 </div>
             </div>
         </section>
+        </div>
+
 
         <!-- Plan -->
         <section class="plan">
-            <h2 class="heading">Choose Your Plan</h2>
-            <div class="box-container">
+            <div class="warapper-container">
+                <h2 class="heading">Choose Your Plan</h2>
+                <div class="box-container">
                 <div class="box">
                     <h3 class="title">silver</h3>
                     <p class="price"><sup>$</sup>49</p>
@@ -160,10 +170,12 @@
                     <a href="javascript:void(0)" class="btn purchase-btn">purchase</a>
                 </div>
             </div>
+            </div>
         </section>
 
         <!-- place -->
-        <section class="place">
+        <div class="warapper-container">
+            <section class="place">
             <h2 class="heading">Places</h2>
                  <div class="drop-menu">
                     <p>SAN FRANCISCO</p>
@@ -186,6 +198,7 @@
                 </div>
             </div>
         </section>
+        </div>
 
         <!-- Create account -->
         <section class="account">
@@ -293,7 +306,8 @@
 
         <!-- Footer -->
         <footer class="footer">
-            <div class="box-container">
+            <div class="warapper-container">
+                <div class="box-container">
                 <div class="box-detail">
                     <div class="box">
                         <div id="title1">
@@ -348,8 +362,10 @@
                     <a href="javascript:void(0)"><img src="images/go-to-top.png" alt="to the top btn"></a>
                 </div>
             </div>
+            </div>
+
         </footer>
-    </div>
+    <!-- </div> -->
 </body>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.2/html-inspector.js"></script>
     <script src="./javascripts/index.js"></script>
