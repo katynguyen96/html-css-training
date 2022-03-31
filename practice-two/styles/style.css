@@ -134,7 +134,7 @@ header .take-tour-btn{
     max-width: 450px;
     align-items: center;
     justify-content: space-around;
-    margin:70px auto;
+    margin:40px auto 70px auto;
 }
 
 .home .content .img-icon{
@@ -639,7 +639,7 @@ header .take-tour-btn{
 /*Footer*/
 footer{
     background: #4B4B4B;
-    padding: 50px 140px 30px 140px;
+    padding: 40px 140px 45px 140px;
     color: #FFF;
 }
 .footer .box-container:nth-child(1){
@@ -649,6 +649,7 @@ footer{
     flex-wrap: wrap;
     border-bottom: 2px solid #7D7D7D;
     padding-bottom: 40px;
+    margin-top: 10px;
 }
 
 .footer .box-container:nth-child(1) .box:nth-child(1){
@@ -747,8 +748,6 @@ footer{
     cursor: pointer;
 }
 
-
-
 .footer .box-container:nth-child(2) .to-the-top{
     visibility: hidden;
     opacity: 50%;
@@ -756,20 +755,23 @@ footer{
 
 
 
-
 /*media queries*/
 /*tablet version*/
 @media (max-width: 770px){
      header .navbar .item{
-        font-size: 120%;
+        font-size: 12px;
     }
 
     header .logo{
-        font-size: 150%;
+        font-size: 24px;
     }
 
     .navbar-content{
-        padding: 20px 30px;
+        padding: 45px 30px 35px 30px;
+    }
+
+    .home .content{
+        margin: 130px auto 70px auto;
     }
 
     .home .content h1{
@@ -777,6 +779,11 @@ footer{
         text-align: center;
         margin: auto;
         width: 75%;
+        line-height: 1.2;
+    }
+
+    .home .content .find{
+        margin-top: 16px;
     }
 
     .home .content p{
@@ -785,11 +792,11 @@ footer{
 
     .find .find-now-btn{
         font-size: 13px;
-        padding: 10px 30px;
+        padding: 10px 35px;
     }
 
     .find input[type="email"]{
-        width: 260px;
+        width: 230px;
     }
 
     .home .content .img-icon{
@@ -797,13 +804,18 @@ footer{
     }
 
     /*Team*/
+    .team{
+        min-height: 48vh;
+    }
+
+    .team .heading{
+        font-size: 32px;
+    }
+
     .team .box-container .box{
         margin: 5px 0;
         padding-left: 3px;
-    }
-
-    .team{
-        min-height: 48vh;
+        /* height: 150px; */
     }
 
     .person img{
@@ -1079,7 +1091,7 @@ footer{
 
     /*header*/
     .navbar-content{
-        padding: 15px 30px;
+        padding: 25px 30px 20px 30px;
     }
 
     header .logo{
@@ -1096,8 +1108,12 @@ footer{
         visibility: hidden;
     }
 
-    .home {
-        min-height: 65vh;
+    .home .content{
+        margin:60px auto 0px auto;
+    }
+
+    .home .content .find{
+        margin-top: 20px;
     }
 
     .home .find .find-now{
@@ -1107,13 +1123,13 @@ footer{
     }
 
     .find .find-now-btn{
-        width: 63%;
+        width: 230px;
         margin-top: 20px;
         padding: 7px 10px;
     }
 
     .find input[type="email"]{
-        width: 240px;
+        width: 220px;
         margin-right: 0px;
     }
 
@@ -1125,12 +1141,13 @@ footer{
     .home .content .icon{
         justify-content: space-around;
         width: 230px;
-        margin: 40px auto 70px auto;
+        margin: 20px auto 110px auto;
     }
 
      /*Team*/
     .team .heading{
         font-size: 22px;
+        margin-top: 50px;
     }
 
     .team .box-container{
@@ -1147,6 +1164,7 @@ footer{
         height: 130px;
         margin: 0px 13px;
         padding-left: 30px;
+        padding-top: 10px;
     }
 
     .team .box-container .box:nth-child(1){
@@ -1179,15 +1197,30 @@ footer{
     }
 
     .plan{
-        padding: 0 50px;
+        padding: 0 50px 40px 50px;
     }
 
     .plan .heading{
         font-size: 22px;
+        margin-bottom: 5px;
     }
 
     .plan .purchase-btn{
         padding: 10px 45px;
+        margin-top: 5px;
+    }
+
+    .plan .box-container .box{
+        margin: 20px 10px 5px 10px;
+    }
+
+    .plan .box-container .box .title{
+        padding-top: 20px;
+    }
+
+    .plan .box-container .box .price{
+        margin-bottom: 0px;
+        margin-top: -10px;
     }
 
     /*place*/
@@ -1355,7 +1388,7 @@ footer{
         margin-right: 0px;
         justify-content: space-between;
         order: 1;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .footer .box-container:nth-child(2) .box:last-child{
