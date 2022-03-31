@@ -392,11 +392,9 @@ header .take-tour-btn{
 
 /*Account*/
 .account{
-    /*width: 100%;*/
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    min-height: 540px;
     background: url(../assets/images/photos/mask.jpg)
 }
 
@@ -804,18 +802,23 @@ footer{
     }
 
     /*Team*/
-    .team{
-        min-height: 48vh;
-    }
-
     .team .heading{
         font-size: 32px;
+    }
+
+    .team .box-container{
+        margin: 10px 60px 30px 90px;
     }
 
     .team .box-container .box{
         margin: 5px 0;
         padding-left: 3px;
-        /* height: 150px; */
+        height: auto;
+        padding: 10px;
+    }
+
+    .team .box-container{
+        margin: 10px 40px 0px 90px;
     }
 
     .person img{
@@ -827,31 +830,33 @@ footer{
     }
 
     .person p{
-        font-size: 12px;
+        font-size: 11px;
     }
 
     /*Plan*/
     .plan .heading{
         font-size: 30px;
-        padding-top: 60px;
+        padding-top: 45px;
     }
 
     .plan .box-container{
         flex-wrap: nowrap;
+        margin-bottom: 20px;
     }
 
     .plan{
-        padding: 0 20px;
-        min-height: 530px;
+        padding: 0 20px 30px 20px;
     }
 
     .plan .purchase-btn{
         font-size: 11px;
-        padding: 10px 30px;
+        padding: 10px 40px;
+        margin-top: 5px;
     }
 
     .plan .box-container .box .title{
         font-size: 14px;
+        padding-top: 25px;
     }
 
     .plan .box-container .box .price{
@@ -867,13 +872,17 @@ footer{
         padding: 0;
     }
 
-    .plan .heading{
-        margin-top: 40px;
+    .plan .box-container .box{
+        margin: 10px 10px;
     }
 
     /*Place*/
     .place{
         margin-bottom: 0;
+    }
+
+    .place .heading{
+        font-size: 32px;
     }
 
     .place .name p{
@@ -904,8 +913,16 @@ footer{
         font-size: 24px;
     }
 
+    .account form{
+        padding: 20px 0px;
+    }
+
     .content .title{
         font-size: 13px;
+    }
+
+    .content .heading{
+        margin-top: 35px;
     }
 
     .content .input-box input{
@@ -935,6 +952,7 @@ footer{
         margin-top: 25px;
         margin-left:0px;
         margin-right: 0;
+        width: 220px;
     }
 
     .contact .box-container .box:nth-child(2){
@@ -957,7 +975,7 @@ footer{
 
     .contact .box-container .input-box input{
         padding-right: 0;
-        width: 120px;
+        width: 110px;
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 11px;
@@ -968,7 +986,7 @@ footer{
     }
 
     .contact .box-container .box textarea{
-        height: 80px;
+        height: 65px;
         margin-top: 10px;
     }
 
@@ -1000,21 +1018,23 @@ footer{
 
     .contact .box-container .box .follow{
         font-size: 13px;
-        margin-bottom: 0;
+        margin-bottom: 5px;
+        margin-top: 20px;
     }
 
     .contact .box-container .box .icon img{
-        width: 20px;
+        width: 15px;
+        height: 15px;
+        margin: 5px 15px;
     }
 
     .contact .box-container .box .icon{
-        width: 140px;
+        width: 100px;
     }
 
     /*footer*/
      footer{
-        padding: 20px 25px;
-        min-height: 23vh;
+        padding: 10px 25px;
     }
 
     .footer .box-container:nth-child(1) .box-detail{
@@ -1023,7 +1043,7 @@ footer{
 
     .footer .box-container:nth-child(1){
         flex-wrap: nowrap;
-        padding-bottom: 30px;
+        padding-bottom: 15px;
     }
 
     .footer .box-container:nth-child(1) .box .title{
@@ -1040,7 +1060,7 @@ footer{
 
     .footer .box-detail .box:nth-child(2){
         width: 170px;
-        margin-top: 12px;
+        margin-top: 8px;
     }
 
     .footer .box-container:nth-child(1)  .box .content{
@@ -1070,19 +1090,29 @@ footer{
         flex-wrap: nowrap;
     }
 
+    .footer .box-container:nth-child(2) .box:nth-child(1){
+        margin: 15px;
+    }
+
     .footer .box-container:nth-child(2) .box:nth-child(2) a{
         font-size: 11px;
         margin-top: 5px;
     }
 
+    .footer .box-container:nth-child(2) .box:nth-child(1){
+        font-size: 11px;
+    }
+
     .footer .box-container:nth-child(2) .box:nth-child(2){
         width: 350px;
+        margin-top: 15px;
     }
 
     .footer .box-container:nth-child(2) .box:last-child{
         width: 27px;
         height: 27px;
         margin-left: 80px;
+        margin-top: 20px;
     }
 }
 
@@ -1355,6 +1385,11 @@ footer{
     }
 
     /*footer*/
+
+    footer{
+        padding: 20px 25px;
+    }
+
     .footer .box-container:nth-child(1){
         flex-wrap: wrap;
         width: auto;
@@ -1399,11 +1434,12 @@ footer{
     .footer .box-container:nth-child(2) .box:nth-child(1){
         order: 2;
         font-size: 13px;
+        margin: 25px 0 0 0;
     }
 
     .footer .box-container:nth-child(2) .to-the-top{
         order: 3;
-        margin-top:34px;
+        margin-top:25px;
         font-size: 13px;
         visibility: visible;
     }
