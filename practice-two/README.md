@@ -15,7 +15,7 @@ Build website user interface from existing designs
 
 ## TIMELINE
 
-Estimated time: 17/03-24/03 (6 working days)
+Estimated time: 18/03-25/03 (6 working days)
 
 - Day 1: Estimate detail, Create tasks, Implement header
 - Day 2: Implement Content "Our Team" section
@@ -23,7 +23,9 @@ Estimated time: 17/03-24/03 (6 working days)
 - Day 4: Implement Content "Crate An Account" and "Contact Us"
 - Day 5: Implement footer
 - Day 6: Fix issue
-
+- Day 7: Pair review
+- Day 8: Review with mentor
+- Day 9: Wrap up code for practice review
 ## DESIGN
 - [Figma](https://www.figma.com/file/RJM5LDOKVSdr9F6SVXSs9J/Hofman3?node-id=0%3A1)
 
@@ -33,6 +35,9 @@ Estimated time: 17/03-24/03 (6 working days)
 https://github.com/katynguyen96/html-css-training
 ~~~
 - Run Webpage
+~~~
+git checkout practice-two
+~~~
 ~~~
 Open practice-two folder
 ~~~
