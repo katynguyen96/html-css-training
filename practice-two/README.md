@@ -11,7 +11,7 @@ HTML5/CSS3
 - Used media queries for popular screen size
 
 ## EXERCISE
-Build website user interface from existing designs
+Build responsive website user interface from existing designs
 
 ## TIMELINE
 
