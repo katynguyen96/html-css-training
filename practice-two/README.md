@@ -15,7 +15,7 @@ Build responsive website user interface from existing designs
 
 ## TIMELINE
 
-Estimated time: 18/03-25/03 (6 working days)
+Estimated time: 18/03-04/04 (9 working days)
 
 - Day 1: Estimate detail, Create tasks, Implement header
 - Day 2: Implement Content "Our Team" section
@@ -38,11 +38,9 @@ https://github.com/katynguyen96/html-css-training
 ~~~
 git checkout practice-two
 ~~~
-~~~
-Open practice-two folder
-~~~
-~~~
-Double-click on index.html file
+- Open practice-two folder
+
+- Double-click on index.html file
 
 
 
